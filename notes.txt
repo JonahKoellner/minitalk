@@ -1,0 +1,28 @@
+
+Also possible with reallocation and join but I already did that in get_next_line, 
+so I wanted to try something new.
+
+Improvements:
+
+Theory:
+    First thing send is the amount of incoming characters.
+    Then a 0
+    Then all the characters
+    Then a 0
+
+0 always means "done with current task / part"
+
+
+Functions:
+    - Detect if true number, for checking input from user
+    - Depends on how to solve the problem, but propably realloc and join
+
+
+
+
+
+
+How to break possibly every minitalk:
+./client 94886 "hallo" & ./client 94886 "test"
+Does this need to be handled ?
+
